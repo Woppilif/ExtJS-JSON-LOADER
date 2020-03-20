@@ -5,7 +5,7 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('ExtApplication1.view.main.Main', {
+Ext.define('ExtApplication3.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
 
@@ -13,11 +13,13 @@ Ext.define('ExtApplication1.view.main.Main', {
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
 
-        'ExtApplication1.view.main.MainController',
-        'ExtApplication1.view.main.MainModel',
-        'ExtApplication1.view.main.List',
-        'ExtApplication1.model.Tune',
-        'ExtApplication1.view.main.Table'
+        'ExtApplication3.view.main.MainController',
+        'ExtApplication3.view.main.MainModel',
+        'ExtApplication3.view.main.List',
+        'ExtApplication3.model.Tune',
+        'ExtApplication3.view.main.Table',
+        'ExtApplication3.view.main.TableController',
+        'ExtApplication3.view.main.TableWindow'
     ],
 
     controller: 'main',

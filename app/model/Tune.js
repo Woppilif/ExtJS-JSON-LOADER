@@ -1,4 +1,4 @@
-Ext.define('ExtApplication1.model.Tune', {
+﻿Ext.define('ExtApplication3.model.Tune', {
     extend: 'Ext.data.Model',
     requires: ['Ext.data.proxy.JsonP'],
     fields: [{

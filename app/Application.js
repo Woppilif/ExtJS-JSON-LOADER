@@ -3,10 +3,10 @@
  * calls Ext.application(). This is the ideal place to handle application launch and
  * initialization details.
  */
-Ext.define('ExtApplication1.Application', {
+Ext.define('ExtApplication3.Application', {
     extend: 'Ext.app.Application',
 
-    name: 'ExtApplication1',
+    name: 'ExtApplication3',
 
     quickTips: false,
     platformConfig: {

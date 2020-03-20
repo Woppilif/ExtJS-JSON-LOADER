@@ -1,12 +1,12 @@
 /**
  * This view is an example list of people.
  */
-Ext.define('ExtApplication1.view.main.List', {
+Ext.define('ExtApplication3.view.main.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
 
     requires: [
-        'ExtApplication1.store.Personnel'
+        'ExtApplication3.store.Personnel'
     ],
 
     title: 'Personnel',
